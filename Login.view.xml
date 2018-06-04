@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="sap.ui.demo.wt.Login"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    
+    <Input
+      value="{/login/user}"
+      description="Hello {/login/user}"
+      valueLiveUpdate="true"
+      width="30%"/>
+    
+    <Input
+      value="{/login/password}"
+      description="Password"
+      valueLiveUpdate="true"
+      width="30%"/>
+    
+    
+    <Button
+        text="Login"
+        press="onLogin" />
+</mvc:View>
+        
